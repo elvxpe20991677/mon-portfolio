@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 import { X } from "lucide-react";
 import type { Project } from "@/types/project";
 
@@ -19,11 +20,19 @@ export default function VideoModal({ project, onClose }: VideoModalProps) {
   }, [onClose]);
 
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.2 }}
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 backdrop-blur-sm"
       onClick={onClose}
     >
-      <div
+      <motion.div
+        initial={{ opacity: 0, scale: 0.96, y: 12 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        exit={{ opacity: 0, scale: 0.96, y: 12 }}
+        transition={{ duration: 0.25, ease: "easeOut" }}
         className="relative w-full max-w-4xl overflow-hidden rounded-lg bg-surface"
         onClick={(event) => event.stopPropagation()}
       >
@@ -39,6 +48,7 @@ export default function VideoModal({ project, onClose }: VideoModalProps) {
           src={project.videoUrl}
           autoPlay
           controls
+          playsInline
           className="aspect-video w-full bg-black"
         />
         <div className="p-4">
@@ -49,7 +59,7 @@ export default function VideoModal({ project, onClose }: VideoModalProps) {
             <p className="text-sm text-muted">{project.clientName}</p>
           )}
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }

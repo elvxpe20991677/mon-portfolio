@@ -3,230 +3,253 @@
     "id": "v2.1",
     "title": "v2.1",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/3. RÉSEAUX SOCIAUX/v2.1.mov?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/3. RÉSEAUX SOCIAUX/v2.1.mov",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/v2-1-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/v2-1.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "reseaux-sociaux",
+    "featured": true
   },
   {
     "id": "0_final",
     "title": "0_final",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/0_final.mov?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/0_final.mov",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/0-final-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/0-final.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "motion-design",
+    "featured": false
   },
   {
     "id": "LFO_Générique_out",
     "title": "LFO_Générique_out",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/LFO_Générique_out.mov?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/LFO_Générique_out.mov",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/lfo-generique-out-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/lfo-generique-out.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "motion-design",
+    "featured": true
   },
   {
     "id": "VF_LogoMotion_MJP",
     "title": "VF_LogoMotion_MJP",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_LogoMotion_MJP.mov?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_LogoMotion_MJP.mov",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-mjp-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-mjp.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "motion-design",
+    "featured": true
   },
   {
     "id": "LFO_transitions_IN",
     "title": "LFO_transitions_IN",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/LFO_transitions_IN.mov?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/LFO_transitions_IN.mov",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/lfo-transitions-in-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/lfo-transitions-in.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "motion-design",
+    "featured": false
   },
   {
     "id": "VF_LogoMotion_BABA",
     "title": "VF_LogoMotion_BABA",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_LogoMotion_BABA.mov?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_LogoMotion_BABA.mov",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-baba-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-baba.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "motion-design",
+    "featured": false
   },
   {
     "id": "VF_LogoMotion_FCEM",
     "title": "VF_LogoMotion_FCEM",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_LogoMotion_FCEM.mov?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_LogoMotion_FCEM.mov",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-fcem-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-fcem.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "motion-design",
+    "featured": false
   },
   {
     "id": "elvis-montage-final grand huit",
     "title": "elvis-montage-final grand huit",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/1. FICTION DOCU REPORTAGE/elvis-montage-final grand huit.mov?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/1. FICTION DOCU REPORTAGE/elvis-montage-final grand huit.mov",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/elvis-montage-final-grand-huit-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/elvis-montage-final-grand-huit.mp4",
     "views": "0",
     "retention": "",
-    "category": "Documentaire"
+    "category": "fiction-documentaire",
+    "featured": true
   },
   {
     "id": "VF_LogoMotion_Bourrelier",
     "title": "VF_LogoMotion_Bourrelier",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_LogoMotion_Bourrelier.mov?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_LogoMotion_Bourrelier.mov",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-bourrelier-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-bourrelier.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "motion-design",
+    "featured": false
   },
   {
     "id": "VF_LogoMotion_Horizon",
     "title": "VF_LogoMotion_Horizon",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_LogoMotion_Horizon.mov?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_LogoMotion_Horizon.mov",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-horizon-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-horizon.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "motion-design",
+    "featured": false
   },
   {
     "id": "VF_LogoMotion_RiseUP",
     "title": "VF_LogoMotion_RiseUP",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_LogoMotion_RiseUP.mov?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_LogoMotion_RiseUP.mov",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-riseup-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-riseup.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "motion-design",
+    "featured": false
   },
   {
     "id": "VF_LogoMotion_Versologic",
     "title": "VF_LogoMotion_Versologic",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_LogoMotion_Versologic.mov?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_LogoMotion_Versologic.mov",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-versologic-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-versologic.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "motion-design",
+    "featured": false
   },
   {
     "id": "03-3 OUTILS INDISPENSABLE",
     "title": "03-3 OUTILS INDISPENSABLE",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/3. RÉSEAUX SOCIAUX/03-3 OUTILS INDISPENSABLE.mov?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/3. RÉSEAUX SOCIAUX/03-3 OUTILS INDISPENSABLE.mov",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/03-3-outils-indispensable-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/03-3-outils-indispensable.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "reseaux-sociaux",
+    "featured": false
   },
   {
     "id": "Elvis Corbieres Solidaire V2",
     "title": "Elvis Corbieres Solidaire V2",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/1. FICTION DOCU REPORTAGE/Elvis Corbieres Solidaire V2.mp4?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/1. FICTION DOCU REPORTAGE/Elvis Corbieres Solidaire V2.mp4",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/elvis-corbieres-solidaire-v2-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/elvis-corbieres-solidaire-v2.mp4",
     "views": "0",
     "retention": "",
-    "category": "Documentaire"
+    "category": "fiction-documentaire",
+    "featured": false
   },
   {
     "id": "Halte au Conservatoire - Stage de prise de vue",
     "title": "Halte au Conservatoire - Stage de prise de vue",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/1. FICTION DOCU REPORTAGE/Halte au Conservatoire - Stage de prise de vue.mp4?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/1. FICTION DOCU REPORTAGE/Halte au Conservatoire - Stage de prise de vue.mp4",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/halte-au-conservatoire-stage-de-prise-de-vue-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/halte-au-conservatoire-stage-de-prise-de-vue.mp4",
     "views": "0",
     "retention": "",
-    "category": "Documentaire"
+    "category": "fiction-documentaire",
+    "featured": false
   },
   {
     "id": "Le bal des jeux - Stage de Prise de Vue",
     "title": "Le bal des jeux - Stage de Prise de Vue",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/1. FICTION DOCU REPORTAGE/Le bal des jeux - Stage de Prise de Vue.mp4?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/1. FICTION DOCU REPORTAGE/Le bal des jeux - Stage de Prise de Vue.mp4",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/le-bal-des-jeux-stage-de-prise-de-vue-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/le-bal-des-jeux-stage-de-prise-de-vue.mp4",
     "views": "0",
     "retention": "",
-    "category": "Documentaire"
+    "category": "fiction-documentaire",
+    "featured": false
   },
   {
     "id": "Tdi Reportage E2 G2",
     "title": "Tdi Reportage E2 G2",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/1. FICTION DOCU REPORTAGE/Tdi Reportage E2 G2.mp4?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/1. FICTION DOCU REPORTAGE/Tdi Reportage E2 G2.mp4",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/tdi-reportage-e2-g2-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/tdi-reportage-e2-g2.mp4",
     "views": "0",
     "retention": "",
-    "category": "Documentaire"
+    "category": "fiction-documentaire",
+    "featured": false
   },
   {
     "id": "Vf Courtmetrage Horizon",
     "title": "Vf Courtmetrage Horizon",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/1. FICTION DOCU REPORTAGE/Vf Courtmetrage Horizon.mp4?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/1. FICTION DOCU REPORTAGE/Vf Courtmetrage Horizon.mp4",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-courtmetrage-horizon-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-courtmetrage-horizon.mp4",
     "views": "0",
     "retention": "",
-    "category": "Documentaire"
+    "category": "fiction-documentaire",
+    "featured": true
   },
   {
     "id": "VF_CVMOTION_Laura",
     "title": "VF_CVMOTION_Laura",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_CVMOTION_Laura.mp4?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/2. MOTION DESIGN/VF_CVMOTION_Laura.mp4",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-cvmotion-laura-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-cvmotion-laura.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "motion-design",
+    "featured": false
   },
   {
     "id": "Hugo_Short",
     "title": "Hugo_Short",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/3. RÉSEAUX SOCIAUX/Hugo_Short.mp4?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/3. RÉSEAUX SOCIAUX/Hugo_Short.mp4",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/hugo-short-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/hugo-short.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "reseaux-sociaux",
+    "featured": false
   },
   {
     "id": "Trailler_Kylian",
     "title": "Trailler_Kylian",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/3. RÉSEAUX SOCIAUX/Trailler_Kylian.mp4?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/3. RÉSEAUX SOCIAUX/Trailler_Kylian.mp4",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/trailler-kylian-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/trailler-kylian.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "reseaux-sociaux",
+    "featured": false
   },
   {
     "id": "Unboxing 10Plus Roues - V2.1 Colo On",
     "title": "Unboxing 10Plus Roues - V2.1 Colo On",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/3. RÉSEAUX SOCIAUX/Unboxing 10Plus Roues - V2.1 Colo On.mp4?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/3. RÉSEAUX SOCIAUX/Unboxing 10Plus Roues - V2.1 Colo On.mp4",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/unboxing-10plus-roues-v2-1-colo-on-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/unboxing-10plus-roues-v2-1-colo-on.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "reseaux-sociaux",
+    "featured": true
   },
   {
     "id": "V4.2 Hq",
     "title": "V4.2 Hq",
     "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/3. RÉSEAUX SOCIAUX/V4.2 Hq.mp4?thumbnail=600",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/PORTOLIO/3. RÉSEAUX SOCIAUX/V4.2 Hq.mp4",
+    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/v4-2-hq-cover.jpg",
+    "videoUrl": "https://3lvx-portfolio.sirv.com/web/v4-2-hq.mp4",
     "views": "0",
     "retention": "",
-    "category": "Short"
+    "category": "reseaux-sociaux",
+    "featured": false
   }
 ]

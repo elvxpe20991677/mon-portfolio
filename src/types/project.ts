@@ -1,3 +1,5 @@
+export type Category = "fiction-documentaire" | "motion-design" | "reseaux-sociaux";
+
 export interface Project {
   id: string;
   title: string;
@@ -6,5 +8,6 @@ export interface Project {
   videoUrl: string;
   views: string;
   retention?: string;
-  category: "Short" | "Long Format" | "Documentaire";
+  category: Category;
+  featured: boolean;
 }
