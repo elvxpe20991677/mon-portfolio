@@ -2,35 +2,69 @@
 
 import { motion } from "framer-motion";
 
+const EASE = [0.16, 1, 0.3, 1] as const;
+
+function RevealLine({ children, delay }: { children: string; delay: number }) {
+  return (
+    <span className="block overflow-hidden">
+      <motion.span
+        initial={{ y: "120%" }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.8, ease: EASE, delay }}
+        className="block"
+      >
+        {children}
+      </motion.span>
+    </span>
+  );
+}
+
 export default function HeroSection() {
   return (
-    <motion.section
-      initial={{ opacity: 0, y: 12 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: "easeOut" }}
-      className="flex flex-col items-center justify-center gap-8 px-6 py-32 text-center"
-    >
-      <h1 className="max-w-3xl text-4xl font-bold tracking-tight text-foreground sm:text-6xl">
-        Je transforme vos idées en vidéos qui retiennent l&apos;attention.
+    <section className="flex flex-col items-center justify-center gap-8 px-6 py-32 text-center">
+      <h1 className="max-w-3xl font-display text-4xl font-bold uppercase leading-[0.95] tracking-tight text-foreground sm:text-6xl">
+        <RevealLine delay={0.1}>Je transforme vos idées</RevealLine>
+        <RevealLine delay={0.25}>en vidéos qui convertissent</RevealLine>
       </h1>
-      <p className="max-w-xl text-lg text-muted">
+      <motion.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, ease: "easeOut", delay: 0.45 }}
+        className="max-w-xl text-lg text-muted"
+      >
         Montage vidéo pour créateurs de contenu, agences et marques —
         rétention, watch time et conversion au cœur de chaque cut.
-      </p>
-      <div className="flex flex-col gap-4 sm:flex-row">
+      </motion.p>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, ease: "easeOut", delay: 0.55 }}
+        className="flex flex-col gap-4 sm:flex-row"
+      >
         <a
           href="#projects"
+          data-cursor="link"
           className="rounded-md bg-accent px-6 py-3 font-medium text-foreground transition-colors hover:bg-accent/90"
         >
           Voir mon travail
         </a>
         <a
           href="mailto:perros.elvis@gmail.com"
+          data-cursor="link"
           className="rounded-md border border-zinc-800 px-6 py-3 font-medium text-foreground transition-colors hover:border-zinc-600"
         >
           Me contacter
         </a>
-      </div>
-    </motion.section>
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6, ease: "easeOut", delay: 0.7 }}
+        className="mt-2 inline-flex items-center gap-2 rounded-full border border-green-500/35 px-4 py-1.5 text-xs font-medium tracking-wide text-green-400"
+      >
+        <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-green-400" />
+        Disponible pour de nouveaux projets
+      </motion.div>
+    </section>
   );
 }

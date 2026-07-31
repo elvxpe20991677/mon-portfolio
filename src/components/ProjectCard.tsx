@@ -9,12 +9,18 @@ import type { Project } from "@/types/project";
 interface ProjectCardProps {
   project: Project;
   onSelect: () => void;
+  index: number;
 }
 
 const HOVER_DELAY = 300;
 const LONG_PRESS_DELAY = 400;
+const MAX_STAGGER_DELAY = 0.6;
 
-export default function ProjectCard({ project, onSelect }: ProjectCardProps) {
+export default function ProjectCard({
+  project,
+  onSelect,
+  index,
+}: ProjectCardProps) {
   const [isPreviewing, setIsPreviewing] = useState(false);
   const [previewReady, setPreviewReady] = useState(false);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -66,9 +72,14 @@ export default function ProjectCard({ project, onSelect }: ProjectCardProps) {
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -8 }}
-      transition={{ duration: 0.35, ease: "easeOut" }}
+      transition={{
+        duration: 0.35,
+        ease: "easeOut",
+        delay: Math.min(index * 0.06, MAX_STAGGER_DELAY),
+      }}
       whileHover={{ y: -4 }}
       type="button"
+      data-cursor="project"
       onClick={onSelect}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
@@ -83,7 +94,9 @@ export default function ProjectCard({ project, onSelect }: ProjectCardProps) {
           alt={project.title}
           fill
           sizes="(min-width: 1024px) 33vw, 50vw"
-          className="object-cover brightness-90 transition-[transform,filter] duration-300 group-hover:scale-105 group-hover:brightness-100"
+          className={`object-cover grayscale contrast-[1.05] brightness-90 transition-[transform,filter] duration-300 group-hover:scale-105 group-hover:grayscale-0 group-hover:brightness-100 ${
+            isPreviewing ? "grayscale-0 brightness-100" : ""
+          }`}
         />
         <AnimatePresence>
           {isPreviewing && (
@@ -117,7 +130,7 @@ export default function ProjectCard({ project, onSelect }: ProjectCardProps) {
         </div>
       </div>
       <div className="flex flex-col gap-1.5 p-3 sm:gap-2 sm:p-4">
-        <h3 className="truncate text-sm font-bold tracking-tight text-foreground sm:text-base">
+        <h3 className="truncate font-display text-sm font-bold uppercase tracking-tight text-foreground sm:text-base">
           {project.title}
         </h3>
         {project.clientName && (
