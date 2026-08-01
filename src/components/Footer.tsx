@@ -10,11 +10,11 @@ export default function Footer() {
         Ensemble
       </h2>
       <a
-        href="mailto:perros.elvis@gmail.com"
+        href="mailto:3vr.contact@gmail.com"
         data-cursor="link"
         className="border-b-2 border-zinc-700 pb-1 text-lg text-foreground transition-colors hover:border-accent sm:text-2xl"
       >
-        perros.elvis@gmail.com
+        3vr.contact@gmail.com
       </a>
       <p className="mt-6 text-xs text-muted">
         © 2026 Elvis Perros. Tous droits réservés.

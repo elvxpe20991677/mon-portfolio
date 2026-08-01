@@ -7,7 +7,7 @@ export const CATEGORY_LABELS: Record<Category, string> = {
 };
 
 export const CATEGORIES: Category[] = [
-  "fiction-documentaire",
-  "motion-design",
   "reseaux-sociaux",
+  "motion-design",
+  "fiction-documentaire",
 ];

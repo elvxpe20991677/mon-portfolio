@@ -45,7 +45,9 @@ Le portfolio est en ligne et fonctionnel (3 commits, dernier `b1b0e2d`). L'audit
 
 `clientName` passe de `string` à `clientName?: string` et les chaînes vides sont retirées du JSON : plusieurs covers de logos affichent une marque en clair, ces noms pourront être renseignés plus tard sans changer le type. `ProjectCard` et `VideoModal` testent déjà sa présence avant de l'afficher, aucun ajustement n'y est nécessaire.
 
-**Réécriture des titres.** Titres proposés ci-dessous, dérivés des marques visibles dans les covers et du contenu observé. Trois sont marqués « à confirmer » — leur cover ne permet pas de trancher.
+**Réécriture des titres.** Titres ci-dessous, dérivés des marques visibles dans les covers et du contenu observé, complétés par Elvis pour `v2.1` et `V4.2 Hq`. Un seul reste à confirmer : `0_final`, dont la cover quasi noire ne permet pas de trancher.
+
+Le classement de `Vlog Tunisie` (13 min) et `Blindtest Rappaz` (18 min) en réseaux sociaux est confirmé : ce sont des formats YouTube longs, pas des documentaires.
 
 | Fichier actuel | Titre proposé |
 |---|---|
@@ -70,8 +72,8 @@ Le portfolio est en ligne et fonctionnel (3 commits, dernier `b1b0e2d`). L'audit
 | `Hugo_Short` | Hugo — Format court |
 | `03-3 OUTILS INDISPENSABLE` | 3 outils indispensables — E-commerce |
 | `Unboxing 10Plus Roues - V2.1 Colo On` | 10Plus Roues — Unboxing |
-| `v2.1` | **à confirmer** — 13 min, classé réseaux sociaux |
-| `V4.2 Hq` | **à confirmer** — 18 min, classé réseaux sociaux |
+| `v2.1` | Vlog Tunisie |
+| `V4.2 Hq` | Blindtest Rappaz |
 
 Les `id` restent inchangés : ils servent de clé React et de correspondance avec `content.json` pour retrouver les fichiers sources locaux.
 
