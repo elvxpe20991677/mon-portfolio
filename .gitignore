@@ -45,3 +45,9 @@ next-env.d.ts
 
 # ancien export brut, remplacé par src/data/projects.json
 /content.json
+
+.vercel
+.env*
+
+# dossiers d'upload YouTube (liens vers les rushs)
+/youtube-upload/

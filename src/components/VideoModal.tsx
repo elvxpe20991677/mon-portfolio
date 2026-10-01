@@ -10,6 +10,13 @@ interface VideoModalProps {
   onClose: () => void;
 }
 
+function embedUrl({ youtubeId, driveId }: Project) {
+  if (youtubeId) {
+    return `https://www.youtube-nocookie.com/embed/${youtubeId}?autoplay=1&rel=0&playsinline=1&modestbranding=1`;
+  }
+  return `https://drive.google.com/file/d/${driveId}/preview`;
+}
+
 export default function VideoModal({ project, onClose }: VideoModalProps) {
   useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
@@ -44,13 +51,21 @@ export default function VideoModal({ project, onClose }: VideoModalProps) {
         >
           <X className="h-5 w-5" />
         </button>
-        <video
-          src={project.videoUrl}
-          autoPlay
-          controls
-          playsInline
-          className="aspect-video w-full bg-black"
-        />
+        <div
+          className="mx-auto w-full bg-black"
+          style={{
+            aspectRatio: project.aspectRatio,
+            maxWidth: `calc(75dvh * ${project.aspectRatio})`,
+          }}
+        >
+          <iframe
+            src={embedUrl(project)}
+            title={project.title}
+            allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+            allowFullScreen
+            className="h-full w-full"
+          />
+        </div>
         <div className="p-4">
           <h3 className="font-bold tracking-tight text-foreground">
             {project.title}

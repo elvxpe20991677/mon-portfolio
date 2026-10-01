@@ -2,254 +2,225 @@
   {
     "id": "v2.1",
     "title": "Vlog Tunisie",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/v2-1-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/v2-1.mp4",
-    "views": "0",
-    "retention": "",
     "category": "reseaux-sociaux",
-    "featured": true
+    "featured": true,
+    "thumbnailUrl": "/covers/v2-1.jpg",
+    "previewUrl": "/previews/v2-1.mp4",
+    "aspectRatio": 1.778
   },
   {
     "id": "0_final",
     "title": "BALLE ANIMÉ - ANIMATION",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/0-final-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/0-final.mp4",
-    "views": "0",
-    "retention": "",
     "category": "motion-design",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/0-final.jpg",
+    "previewUrl": "/previews/0-final.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1lYFiWVdc0cCKZSN7TdsHGXWoZJTjKMLy"
   },
   {
     "id": "LFO_Générique_out",
     "title": "LFO — Générique de fin",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/lfo-generique-out-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/lfo-generique-out.mp4",
-    "views": "0",
-    "retention": "",
     "category": "motion-design",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/lfo-generique-out.jpg",
+    "previewUrl": "/previews/lfo-generique-out.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1VwU-CZ10KraNsbTU079rKvWHQ0AnYCHk"
   },
   {
     "id": "VF_LogoMotion_MJP",
     "title": "Moi Je Progresse — Logo animé",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-mjp-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-mjp.mp4",
-    "views": "0",
-    "retention": "",
     "category": "motion-design",
-    "featured": true
+    "featured": true,
+    "thumbnailUrl": "/covers/vf-logomotion-mjp.jpg",
+    "previewUrl": "/previews/vf-logomotion-mjp.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1IDI2yjT6VwmJSfuKtCGk5nKEYQqaXSYC"
   },
   {
     "id": "LFO_transitions_IN",
     "title": "LFO — Transition d'ouverture",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/lfo-transitions-in-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/lfo-transitions-in.mp4",
-    "views": "0",
-    "retention": "",
     "category": "motion-design",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/lfo-transitions-in.jpg",
+    "previewUrl": "/previews/lfo-transitions-in.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1zO-YNvgzdw7AK3tFelOAJ8qxvSL48Vqo"
   },
   {
     "id": "VF_LogoMotion_BABA",
     "title": "B.A-BA — Logo animé",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-baba-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-baba.mp4",
-    "views": "0",
-    "retention": "",
     "category": "motion-design",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/vf-logomotion-baba.jpg",
+    "previewUrl": "/previews/vf-logomotion-baba.mp4",
+    "aspectRatio": 1.778
   },
   {
     "id": "VF_LogoMotion_FCEM",
     "title": "Français clés en main — Logo animé",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-fcem-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-fcem.mp4",
-    "views": "0",
-    "retention": "",
     "category": "motion-design",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/vf-logomotion-fcem.jpg",
+    "previewUrl": "/previews/vf-logomotion-fcem.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1zNddDBbYE79S8_fHs2Wfu8iIaw3C2Fj_"
   },
   {
     "id": "elvis-montage-final grand huit",
     "title": "Grand Huit — Montage",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/elvis-montage-final-grand-huit-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/elvis-montage-final-grand-huit.mp4",
-    "views": "0",
-    "retention": "",
     "category": "fiction-documentaire",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/elvis-montage-final-grand-huit.jpg",
+    "previewUrl": "/previews/elvis-montage-final-grand-huit.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1-fa482so41z8b5fzKMWPiQHra7UwV8R_"
   },
   {
     "id": "VF_LogoMotion_Bourrelier",
     "title": "Bourrelier — Logo animé",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-bourrelier-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-bourrelier.mp4",
-    "views": "0",
-    "retention": "",
     "category": "motion-design",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/vf-logomotion-bourrelier.jpg",
+    "previewUrl": "/previews/vf-logomotion-bourrelier.mp4",
+    "aspectRatio": 1.778
   },
   {
     "id": "VF_LogoMotion_Horizon",
     "title": "L'Horizon — Logo animé",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-horizon-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-horizon.mp4",
-    "views": "0",
-    "retention": "",
     "category": "motion-design",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/vf-logomotion-horizon.jpg",
+    "previewUrl": "/previews/vf-logomotion-horizon.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1EDrYQT8aDUnBI_s3JPc5J-QvhBgTkOLl"
   },
   {
     "id": "VF_LogoMotion_RiseUP",
     "title": "Rise UP — Logo animé",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-riseup-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-riseup.mp4",
-    "views": "0",
-    "retention": "",
     "category": "motion-design",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/vf-logomotion-riseup.jpg",
+    "previewUrl": "/previews/vf-logomotion-riseup.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1aiXu7RrS6SXcyqWLyEB06iP7QkqG8X5a"
   },
   {
     "id": "VF_LogoMotion_Versologic",
     "title": "Versologic — Logo animé",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-versologic-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-logomotion-versologic.mp4",
-    "views": "0",
-    "retention": "",
     "category": "motion-design",
-    "featured": true
+    "featured": true,
+    "thumbnailUrl": "/covers/vf-logomotion-versologic.jpg",
+    "previewUrl": "/previews/vf-logomotion-versologic.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1yk95B02tDOcXdlZQ-13rW5sn-rUbPsjk"
   },
   {
     "id": "03-3 OUTILS INDISPENSABLE",
     "title": "3 outils indispensables — E-commerce",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/03-3-outils-indispensable-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/03-3-outils-indispensable.mp4",
-    "views": "0",
-    "retention": "",
     "category": "reseaux-sociaux",
-    "featured": true
+    "featured": true,
+    "thumbnailUrl": "/covers/03-3-outils-indispensable.jpg",
+    "previewUrl": "/previews/03-3-outils-indispensable.mp4",
+    "aspectRatio": 1
   },
   {
     "id": "Elvis Corbieres Solidaire V2",
     "title": "Corbières Solidaire — Reportage",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/elvis-corbieres-solidaire-v2-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/elvis-corbieres-solidaire-v2.mp4",
-    "views": "0",
-    "retention": "",
     "category": "fiction-documentaire",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/elvis-corbieres-solidaire-v2.jpg",
+    "previewUrl": "/previews/elvis-corbieres-solidaire-v2.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1IPbNWbakVbxOTtXaUeB-ghFUCuCoynU2"
   },
   {
     "id": "Halte au Conservatoire - Stage de prise de vue",
     "title": "Halte au Conservatoire — Captation",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/halte-au-conservatoire-stage-de-prise-de-vue-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/halte-au-conservatoire-stage-de-prise-de-vue.mp4",
-    "views": "0",
-    "retention": "",
     "category": "fiction-documentaire",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/halte-au-conservatoire-stage-de-prise-de-vue.jpg",
+    "previewUrl": "/previews/halte-au-conservatoire-stage-de-prise-de-vue.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "197Y8he967PQoP0mOd2XVcWZVmbSdWS6X"
   },
   {
     "id": "Le bal des jeux - Stage de Prise de Vue",
     "title": "Le Bal des Jeux — Captation",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/le-bal-des-jeux-stage-de-prise-de-vue-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/le-bal-des-jeux-stage-de-prise-de-vue.mp4",
-    "views": "0",
-    "retention": "",
     "category": "fiction-documentaire",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/le-bal-des-jeux-stage-de-prise-de-vue.jpg",
+    "previewUrl": "/previews/le-bal-des-jeux-stage-de-prise-de-vue.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "11vOglsgqMkOBhEoVEoQlc6beYrFIE9bZ"
   },
   {
     "id": "Tdi Reportage E2 G2",
     "title": "TDI — Reportage",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/tdi-reportage-e2-g2-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/tdi-reportage-e2-g2.mp4",
-    "views": "0",
-    "retention": "",
     "category": "fiction-documentaire",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/tdi-reportage-e2-g2.jpg",
+    "previewUrl": "/previews/tdi-reportage-e2-g2.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1qxzsnHsT87XGhpbniJ8OFsh0IYAjtaRT"
   },
   {
     "id": "Vf Courtmetrage Horizon",
     "title": "Horizon — Court-métrage",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-courtmetrage-horizon-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-courtmetrage-horizon.mp4",
-    "views": "0",
-    "retention": "",
     "category": "fiction-documentaire",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/vf-courtmetrage-horizon.jpg",
+    "previewUrl": "/previews/vf-courtmetrage-horizon.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1C4XPmuHdv48JLRGiIJ2hCNhYfd89EPxZ"
   },
   {
     "id": "VF_CVMOTION_Laura",
     "title": "Laura — CV animé",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/vf-cvmotion-laura-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/vf-cvmotion-laura.mp4",
-    "views": "0",
-    "retention": "",
     "category": "motion-design",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/vf-cvmotion-laura.jpg",
+    "previewUrl": "/previews/vf-cvmotion-laura.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1Jss98wrgxVTlnZP0ycqL-YDO_7u6APFU"
   },
   {
     "id": "Hugo_Short",
     "title": "Hugo — Format court",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/hugo-short-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/hugo-short.mp4",
-    "views": "0",
-    "retention": "",
     "category": "reseaux-sociaux",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/hugo-short.jpg",
+    "previewUrl": "/previews/hugo-short.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1tQghgamArfgHhXLyNFjZrtseeI-VYNcv"
   },
   {
     "id": "Trailler_Kylian",
     "title": "A Simple Riot — Teaser",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/trailler-kylian-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/trailler-kylian.mp4",
-    "views": "0",
-    "retention": "",
     "category": "reseaux-sociaux",
-    "featured": false
+    "featured": false,
+    "thumbnailUrl": "/covers/trailler-kylian.jpg",
+    "previewUrl": "/previews/trailler-kylian.mp4",
+    "aspectRatio": 0.563,
+    "driveId": "1NZQQsy80xv9WeHf0LtZWPfP3gnIvdIdE"
   },
   {
     "id": "Unboxing 10Plus Roues - V2.1 Colo On",
     "title": "10Plus Roues — Unboxing",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/unboxing-10plus-roues-v2-1-colo-on-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/unboxing-10plus-roues-v2-1-colo-on.mp4",
-    "views": "0",
-    "retention": "",
     "category": "reseaux-sociaux",
-    "featured": true
+    "featured": true,
+    "thumbnailUrl": "/covers/unboxing-10plus-roues-v2-1-colo-on.jpg",
+    "previewUrl": "/previews/unboxing-10plus-roues-v2-1-colo-on.mp4",
+    "aspectRatio": 1.778
   },
   {
     "id": "V4.2 Hq",
     "title": "Blindtest Rappaz",
-    "clientName": "",
-    "thumbnailUrl": "https://3lvx-portfolio.sirv.com/web/v4-2-hq-cover.jpg",
-    "videoUrl": "https://3lvx-portfolio.sirv.com/web/v4-2-hq.mp4",
-    "views": "0",
-    "retention": "",
     "category": "reseaux-sociaux",
-    "featured": true
+    "featured": true,
+    "thumbnailUrl": "/covers/v4-2-hq.jpg",
+    "previewUrl": "/previews/v4-2-hq.mp4",
+    "aspectRatio": 1.778
   }
 ]

@@ -4,7 +4,10 @@ import Footer from "@/components/Footer";
 import projectsData from "@/data/projects.json";
 import type { Project } from "@/types/project";
 
-const projects = projectsData as Project[];
+// Un projet n'apparaît qu'une fois sa vidéo en ligne (YouTube ou Google Drive).
+const projects = (projectsData as Project[]).filter(
+  (p) => p.youtubeId || p.driveId
+);
 
 export default function Home() {
   return (

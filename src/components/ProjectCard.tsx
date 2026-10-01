@@ -3,7 +3,7 @@
 import { useRef, useState } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
-import { Play, Eye, TrendingUp } from "lucide-react";
+import { Play } from "lucide-react";
 import type { Project } from "@/types/project";
 
 interface ProjectCardProps {
@@ -105,7 +105,7 @@ export default function ProjectCard({
               animate={{ opacity: previewReady ? 1 : 0 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.25 }}
-              src={project.videoUrl}
+              src={project.previewUrl}
               muted
               loop
               autoPlay
@@ -136,18 +136,6 @@ export default function ProjectCard({
         {project.clientName && (
           <p className="text-xs text-muted sm:text-sm">{project.clientName}</p>
         )}
-        <div className="flex flex-wrap gap-3 pt-1 font-mono text-xs text-muted">
-          <span className="flex items-center gap-1">
-            <Eye className="h-3.5 w-3.5" />
-            {project.views}
-          </span>
-          {project.retention && (
-            <span className="flex items-center gap-1">
-              <TrendingUp className="h-3.5 w-3.5" />
-              {project.retention}
-            </span>
-          )}
-        </div>
       </div>
     </motion.button>
   );

@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+coverage
+.git
+
+# rushs vidéo bruts (24 Go, déjà hébergés sur Sirv CDN — pas besoin sur Vercel)
+assets
+
+# ancien export brut, remplacé par src/data/projects.json
+content.json
+
+.env*
+*.tsbuildinfo
+
+# dossiers d'upload YouTube
+youtube-upload
