@@ -6,7 +6,8 @@
     "featured": true,
     "thumbnailUrl": "/covers/v2-1.jpg",
     "previewUrl": "/previews/v2-1.mp4",
-    "aspectRatio": 1.778
+    "aspectRatio": 1.778,
+    "driveId": "1wV7fZE9_cg6HbzxZgwilFkZU9eOYJs9V"
   },
   {
     "id": "0_final",
@@ -55,7 +56,8 @@
     "featured": false,
     "thumbnailUrl": "/covers/vf-logomotion-baba.jpg",
     "previewUrl": "/previews/vf-logomotion-baba.mp4",
-    "aspectRatio": 1.778
+    "aspectRatio": 1.778,
+    "driveId": "1-8rRwC3D95SGAFwU06i7OTOPV0WQONWj"
   },
   {
     "id": "VF_LogoMotion_FCEM",
@@ -84,7 +86,8 @@
     "featured": false,
     "thumbnailUrl": "/covers/vf-logomotion-bourrelier.jpg",
     "previewUrl": "/previews/vf-logomotion-bourrelier.mp4",
-    "aspectRatio": 1.778
+    "aspectRatio": 1.778,
+    "driveId": "1e6FhGRoUzn6pKeKNhlhj4lKN1-GMTUxs"
   },
   {
     "id": "VF_LogoMotion_Horizon",
@@ -123,7 +126,8 @@
     "featured": true,
     "thumbnailUrl": "/covers/03-3-outils-indispensable.jpg",
     "previewUrl": "/previews/03-3-outils-indispensable.mp4",
-    "aspectRatio": 1
+    "aspectRatio": 1,
+    "driveId": "11BWv1HEhI20_ok3kixSM50U0CMQo8Q8w"
   },
   {
     "id": "Elvis Corbieres Solidaire V2",
@@ -212,7 +216,8 @@
     "featured": true,
     "thumbnailUrl": "/covers/unboxing-10plus-roues-v2-1-colo-on.jpg",
     "previewUrl": "/previews/unboxing-10plus-roues-v2-1-colo-on.mp4",
-    "aspectRatio": 1.778
+    "aspectRatio": 1.778,
+    "driveId": "1wzTghzTmIVvq7WkFl1p3uX84aCoRIHpI"
   },
   {
     "id": "V4.2 Hq",
@@ -221,6 +226,7 @@
     "featured": true,
     "thumbnailUrl": "/covers/v4-2-hq.jpg",
     "previewUrl": "/previews/v4-2-hq.mp4",
-    "aspectRatio": 1.778
+    "aspectRatio": 1.778,
+    "driveId": "17Rg_caqCRXewMpTN2zyj5z6YqMFWlpFW"
   }
 ]
