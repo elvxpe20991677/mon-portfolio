@@ -51,3 +51,6 @@ next-env.d.ts
 
 # dossiers d'upload YouTube (liens vers les rushs)
 /youtube-upload/
+
+# fichiers masqués du site (clip pas encore publié) : à remettre dans public/ pour les réafficher
+/private-assets/

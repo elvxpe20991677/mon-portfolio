@@ -6,7 +6,8 @@
     "featured": false,
     "thumbnailUrl": "/covers/showreel-2026.jpg",
     "aspectRatio": 1.778,
-    "videoUrl": "/showreel/showreel-2026.mp4"
+    "videoUrl": "/showreel/showreel-2026.mp4",
+    "hidden": true
   },
   {
     "id": "v2.1",
@@ -28,7 +29,8 @@
     "previewUrl": "/previews/listen-clip.mp4",
     "aspectRatio": 1.778,
     "driveId": "1Hn1OTBngnuN-wt4oG2BVDLfKQLzNLT1h",
-    "featuredRank": 4
+    "featuredRank": 4,
+    "hidden": true
   },
   {
     "id": "MARIAGE-DEF",

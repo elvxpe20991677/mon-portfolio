@@ -15,3 +15,6 @@ content.json
 
 # dossiers d'upload YouTube
 youtube-upload
+
+# fichiers masqués du site
+private-assets

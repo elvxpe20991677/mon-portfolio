@@ -23,6 +23,8 @@ export interface Project {
   featured: boolean;
   /** Position dans « Meilleure sélection » (1 = premier). L'ordre des catégories suit celui du tableau. */
   featuredRank?: number;
+  /** Masqué du site tant que c'est vrai (données et fichiers conservés pour le remettre plus tard). */
+  hidden?: boolean;
   /** Projet réalisé avec une pipeline IA : la modale l'indique sous le titre. */
   aiGenerated?: boolean;
 }
