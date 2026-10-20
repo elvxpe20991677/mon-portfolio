@@ -73,6 +73,11 @@ export default function VideoModal({ project, onClose }: VideoModalProps) {
           {project.clientName && (
             <p className="text-sm text-muted">{project.clientName}</p>
           )}
+          {project.aiGenerated && (
+            <p className="mt-1 text-xs text-muted">
+              * Réalisé par une pipeline IA
+            </p>
+          )}
         </div>
       </motion.div>
     </motion.div>

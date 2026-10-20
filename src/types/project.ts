@@ -1,4 +1,8 @@
-export type Category = "fiction-documentaire" | "motion-design" | "reseaux-sociaux";
+export type Category =
+  | "showreel"
+  | "fiction-documentaire"
+  | "motion-design"
+  | "reseaux-sociaux";
 
 export interface Project {
   id: string;
@@ -15,4 +19,6 @@ export interface Project {
   aspectRatio: number;
   category: Category;
   featured: boolean;
+  /** Projet réalisé avec une pipeline IA : la modale l'indique sous le titre. */
+  aiGenerated?: boolean;
 }

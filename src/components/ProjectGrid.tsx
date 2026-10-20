@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import type { Category, Project } from "@/types/project";
 import { CATEGORIES, CATEGORY_LABELS } from "@/lib/categories";
 import ProjectCard from "@/components/ProjectCard";
+import ShowreelCard from "@/components/ShowreelCard";
 import VideoModal from "@/components/VideoModal";
 
 type Filter = "all" | Category;
@@ -42,6 +43,11 @@ export default function ProjectGrid({ projects }: ProjectGridProps) {
   );
   const [activeFilter, setActiveFilter] = useState<Filter>("all");
 
+  const showreel = useMemo(
+    () => projects.find((p) => p.category === "showreel"),
+    [projects]
+  );
+
   const featured = useMemo(() => projects.filter((p) => p.featured), [
     projects,
   ]);
@@ -63,6 +69,15 @@ export default function ProjectGrid({ projects }: ProjectGridProps) {
 
   return (
     <section id="projects" className="px-4 py-16 sm:px-6">
+      {showreel && (
+        <div className="mx-auto mb-16 max-w-6xl">
+          <ShowreelCard
+            project={showreel}
+            onSelect={() => setSelectedProject(showreel)}
+          />
+        </div>
+      )}
+
       {featured.length > 0 && (
         <div className="mb-14">
           <h2 className="mb-4 font-display text-xl font-bold uppercase tracking-tight text-foreground sm:text-2xl">
