@@ -73,12 +73,9 @@ export default function ProjectGrid({ projects }: ProjectGridProps) {
 
   return (
     <section id="projects" className="px-4 py-16 sm:px-6">
-      {showreel && (
+      {showreel?.videoUrl && (
         <div className="mx-auto mb-16 max-w-6xl">
-          <ShowreelCard
-            project={showreel}
-            onSelect={() => setSelectedProject(showreel)}
-          />
+          <ShowreelCard project={showreel} />
         </div>
       )}
 

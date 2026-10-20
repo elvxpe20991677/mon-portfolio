@@ -99,7 +99,7 @@ export default function ProjectCard({
           }`}
         />
         <AnimatePresence>
-          {isPreviewing && (
+          {isPreviewing && project.previewUrl && (
             <motion.video
               initial={{ opacity: 0 }}
               animate={{ opacity: previewReady ? 1 : 0 }}

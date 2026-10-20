@@ -6,7 +6,7 @@ import type { Project } from "@/types/project";
 
 // Un projet n'apparaît qu'une fois sa vidéo en ligne (YouTube ou Google Drive).
 const projects = (projectsData as Project[]).filter(
-  (p) => p.youtubeId || p.driveId
+  (p) => p.youtubeId || p.driveId || p.videoUrl
 );
 
 export default function Home() {
