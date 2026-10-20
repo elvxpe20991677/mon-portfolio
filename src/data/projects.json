@@ -276,7 +276,8 @@
     "featured": false,
     "thumbnailUrl": "/covers/aieoue-clip.jpg",
     "previewUrl": "/previews/aieoue-clip.mp4",
-    "aspectRatio": 1.778
+    "aspectRatio": 1.778,
+    "driveId": "1_d-0l5dsTMKzvENv0kR0mep2z3mXLqo4"
   },
   {
     "id": "GROUPE",
@@ -314,7 +315,8 @@
     "featured": false,
     "thumbnailUrl": "/covers/mariage-film.jpg",
     "previewUrl": "/previews/mariage-film.mp4",
-    "aspectRatio": 1.778
+    "aspectRatio": 1.778,
+    "driveId": "1URHjJvi5PYTNx1AZMy3TxUpm7UO8p1F5"
   },
   {
     "id": "KOMOS_TECHNIQUE_VFINAL",
