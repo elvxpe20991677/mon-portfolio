@@ -29,36 +29,6 @@
     "driveId": "1URHjJvi5PYTNx1AZMy3TxUpm7UO8p1F5"
   },
   {
-    "id": "Vf Courtmetrage Horizon",
-    "title": "Horizon — Court-métrage",
-    "category": "fiction-documentaire",
-    "featured": true,
-    "thumbnailUrl": "/covers/vf-courtmetrage-horizon.jpg",
-    "previewUrl": "/previews/vf-courtmetrage-horizon.mp4",
-    "aspectRatio": 1.778,
-    "driveId": "1C4XPmuHdv48JLRGiIJ2hCNhYfd89EPxZ"
-  },
-  {
-    "id": "VFinal_CLIP_AIEOUE",
-    "title": "AIEOUE — Clip",
-    "category": "reseaux-sociaux",
-    "featured": true,
-    "thumbnailUrl": "/covers/aieoue-clip.jpg",
-    "previewUrl": "/previews/aieoue-clip.mp4",
-    "aspectRatio": 1.778,
-    "driveId": "1_d-0l5dsTMKzvENv0kR0mep2z3mXLqo4"
-  },
-  {
-    "id": "Elvis Corbieres Solidaire V2",
-    "title": "Corbières Solidaire — Reportage",
-    "category": "fiction-documentaire",
-    "featured": true,
-    "thumbnailUrl": "/covers/elvis-corbieres-solidaire-v2.jpg",
-    "previewUrl": "/previews/elvis-corbieres-solidaire-v2.mp4",
-    "aspectRatio": 1.778,
-    "driveId": "1IPbNWbakVbxOTtXaUeB-ghFUCuCoynU2"
-  },
-  {
     "id": "V4.2 Hq",
     "title": "Blindtest Rappaz",
     "category": "reseaux-sociaux",
@@ -72,11 +42,61 @@
     "id": "v2.1",
     "title": "Vlog Tunisie",
     "category": "reseaux-sociaux",
-    "featured": false,
+    "featured": true,
     "thumbnailUrl": "/covers/v2-1.jpg",
     "previewUrl": "/previews/v2-1.mp4",
     "aspectRatio": 1.778,
     "driveId": "1wV7fZE9_cg6HbzxZgwilFkZU9eOYJs9V"
+  },
+  {
+    "id": "VF_LogoMotion_MJP",
+    "title": "Moi Je Progresse — Logo animé",
+    "category": "motion-design",
+    "featured": true,
+    "thumbnailUrl": "/covers/vf-logomotion-mjp.jpg",
+    "previewUrl": "/previews/vf-logomotion-mjp.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1IDI2yjT6VwmJSfuKtCGk5nKEYQqaXSYC"
+  },
+  {
+    "id": "VF_LogoMotion_Versologic",
+    "title": "Versologic — Logo animé",
+    "category": "motion-design",
+    "featured": true,
+    "thumbnailUrl": "/covers/vf-logomotion-versologic.jpg",
+    "previewUrl": "/previews/vf-logomotion-versologic.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1yk95B02tDOcXdlZQ-13rW5sn-rUbPsjk"
+  },
+  {
+    "id": "Vf Courtmetrage Horizon",
+    "title": "Horizon — Court-métrage",
+    "category": "fiction-documentaire",
+    "featured": false,
+    "thumbnailUrl": "/covers/vf-courtmetrage-horizon.jpg",
+    "previewUrl": "/previews/vf-courtmetrage-horizon.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1C4XPmuHdv48JLRGiIJ2hCNhYfd89EPxZ"
+  },
+  {
+    "id": "VFinal_CLIP_AIEOUE",
+    "title": "AIEOUE — Clip",
+    "category": "reseaux-sociaux",
+    "featured": false,
+    "thumbnailUrl": "/covers/aieoue-clip.jpg",
+    "previewUrl": "/previews/aieoue-clip.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1_d-0l5dsTMKzvENv0kR0mep2z3mXLqo4"
+  },
+  {
+    "id": "Elvis Corbieres Solidaire V2",
+    "title": "Corbières Solidaire — Reportage",
+    "category": "fiction-documentaire",
+    "featured": false,
+    "thumbnailUrl": "/covers/elvis-corbieres-solidaire-v2.jpg",
+    "previewUrl": "/previews/elvis-corbieres-solidaire-v2.mp4",
+    "aspectRatio": 1.778,
+    "driveId": "1IPbNWbakVbxOTtXaUeB-ghFUCuCoynU2"
   },
   {
     "id": "0_final",
@@ -97,16 +117,6 @@
     "previewUrl": "/previews/lfo-generique-out.mp4",
     "aspectRatio": 1.778,
     "driveId": "1VwU-CZ10KraNsbTU079rKvWHQ0AnYCHk"
-  },
-  {
-    "id": "VF_LogoMotion_MJP",
-    "title": "Moi Je Progresse — Logo animé",
-    "category": "motion-design",
-    "featured": false,
-    "thumbnailUrl": "/covers/vf-logomotion-mjp.jpg",
-    "previewUrl": "/previews/vf-logomotion-mjp.mp4",
-    "aspectRatio": 1.778,
-    "driveId": "1IDI2yjT6VwmJSfuKtCGk5nKEYQqaXSYC"
   },
   {
     "id": "LFO_transitions_IN",
@@ -177,16 +187,6 @@
     "previewUrl": "/previews/vf-logomotion-riseup.mp4",
     "aspectRatio": 1.778,
     "driveId": "1aiXu7RrS6SXcyqWLyEB06iP7QkqG8X5a"
-  },
-  {
-    "id": "VF_LogoMotion_Versologic",
-    "title": "Versologic — Logo animé",
-    "category": "motion-design",
-    "featured": false,
-    "thumbnailUrl": "/covers/vf-logomotion-versologic.jpg",
-    "previewUrl": "/previews/vf-logomotion-versologic.mp4",
-    "aspectRatio": 1.778,
-    "driveId": "1yk95B02tDOcXdlZQ-13rW5sn-rUbPsjk"
   },
   {
     "id": "03-3 OUTILS INDISPENSABLE",
@@ -304,7 +304,7 @@
   {
     "id": "KOMOS_UNBOXING_V1",
     "title": "Komos — Unboxing",
-    "category": "motion-design",
+    "category": "reseaux-sociaux",
     "featured": false,
     "thumbnailUrl": "/covers/komos-unboxing.jpg",
     "previewUrl": "/previews/komos-unboxing.mp4",
