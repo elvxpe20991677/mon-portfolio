@@ -19,6 +19,8 @@ export interface Project {
   aspectRatio: number;
   category: Category;
   featured: boolean;
+  /** Position dans « Meilleure sélection » (1 = premier). L'ordre des catégories suit celui du tableau. */
+  featuredRank?: number;
   /** Projet réalisé avec une pipeline IA : la modale l'indique sous le titre. */
   aiGenerated?: boolean;
 }

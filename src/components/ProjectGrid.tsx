@@ -48,9 +48,13 @@ export default function ProjectGrid({ projects }: ProjectGridProps) {
     [projects]
   );
 
-  const featured = useMemo(() => projects.filter((p) => p.featured), [
-    projects,
-  ]);
+  const featured = useMemo(
+    () =>
+      projects
+        .filter((p) => p.featured)
+        .sort((a, b) => (a.featuredRank ?? 0) - (b.featuredRank ?? 0)),
+    [projects]
+  );
 
   const groups = useMemo(() => {
     if (activeFilter !== "all") {
