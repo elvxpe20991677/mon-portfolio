@@ -126,7 +126,11 @@ export default function ShowreelCard({ project }: ShowreelCardProps) {
 
       <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent pt-16">
         <div className="flex items-end justify-between gap-4 px-4 pb-4 sm:px-6 sm:pb-5">
-          <h3 className="font-display text-xl font-bold uppercase tracking-tight text-foreground sm:text-3xl">
+          <h3
+            className={`font-display text-xl font-bold uppercase tracking-tight text-foreground transition-opacity duration-300 sm:text-3xl ${
+              playing ? "opacity-0" : "opacity-100"
+            }`}
+          >
             {project.title}
           </h3>
           <div className="pointer-events-auto flex items-center gap-2">
