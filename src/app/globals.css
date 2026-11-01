@@ -30,6 +30,18 @@ body {
   --video-height-share: 75dvh;
 }
 
+/* Barre de progression du lecteur maison. */
+.video-seek {
+  accent-color: var(--accent);
+  cursor: pointer;
+  touch-action: pan-y;
+}
+
+/* Lecteur maison : la barre de contrôles occupe de la place sous la vidéo. */
+.video-stage--bar {
+  --video-height-share: 65dvh;
+}
+
 /* Téléphone tenu en paysage : la vidéo prend tout l'écran, sans marges ni titre. */
 @media (orientation: landscape) and (max-height: 500px) {
   .video-overlay {
@@ -37,6 +49,9 @@ body {
   }
   .video-stage {
     --video-height-share: 100dvh;
+  }
+  .video-stage--bar {
+    --video-height-share: calc(100dvh - 7rem);
   }
   .video-info {
     display: none;

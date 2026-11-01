@@ -18,3 +18,10 @@ youtube-upload
 
 # fichiers masqués du site
 private-assets
+
+# exports Fiverr
+FIVERR_EXPORTS
+
+# vidéos converties pour le web (envoyées sur R2, pas versionnées)
+web-videos
+drive-sources

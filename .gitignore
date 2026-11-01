@@ -54,3 +54,10 @@ next-env.d.ts
 
 # fichiers masqués du site (clip pas encore publié) : à remettre dans public/ pour les réafficher
 /private-assets/
+
+# exports Fiverr (MP4 prêts à envoyer)
+/FIVERR_EXPORTS/
+
+# vidéos converties pour le web
+/web-videos/
+/drive-sources/

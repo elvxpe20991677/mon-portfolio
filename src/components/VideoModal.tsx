@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Maximize, Minimize, X } from "lucide-react";
 import type { Project } from "@/types/project";
+import VideoPlayer from "@/components/VideoPlayer";
 
 interface VideoModalProps {
   project: Project;
@@ -49,6 +50,11 @@ export default function VideoModal({ project, onClose }: VideoModalProps) {
   const [simulatedFullscreen, setSimulatedFullscreen] = useState(false);
   const isFullscreen = nativeFullscreen || simulatedFullscreen;
   const isLandscapeVideo = project.aspectRatio > 1;
+  // Lecteur maison dès que la vidéo est hébergée par le site ; Drive sert de
+  // repli pour les autres projets, ou si le fichier ne se lit pas.
+  const [nativePlayerFailed, setNativePlayerFailed] = useState(false);
+  const showNativePlayer =
+    Boolean(project.videoUrl) && (!nativePlayerFailed || !project.driveId);
 
   useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
@@ -72,7 +78,7 @@ export default function VideoModal({ project, onClose }: VideoModalProps) {
   useEffect(() => {
     const player = playerRef.current;
     function sync() {
-      const active = currentFullscreenElement() === player;
+      const active = currentFullscreenElement() === playerRef.current;
       setNativeFullscreen(active);
       if (!active) unlockOrientation();
     }
@@ -165,92 +171,120 @@ export default function VideoModal({ project, onClose }: VideoModalProps) {
         </div>
 
         <div className="flex flex-1 flex-col justify-center sm:flex-none">
-          {/* Même structure dans tous les modes : l'iframe n'est jamais recréée,
-            donc la vidéo ne redémarre pas en entrant/sortant du plein écran. */}
-          <div
-            ref={playerRef}
-            className={`bg-black ${
-              isFullscreen ? "flex items-center justify-center" : ""
-            } ${
-              simulatedFullscreen
-                ? `video-simulated-fullscreen fixed inset-0 z-[60] ${
-                    isLandscapeVideo ? "video-simulated-fullscreen--rotate" : ""
-                  }`
-                : ""
-            }`}
-            style={isFullscreen ? { containerType: "size" } : undefined}
-          >
-            <div
-              className={
-                isFullscreen
-                  ? "relative"
-                  : "video-stage relative mx-auto w-full"
-              }
-              style={
-                isFullscreen
-                  ? {
-                      aspectRatio: project.aspectRatio,
-                      width: `min(100cqw, calc(100cqh * ${project.aspectRatio}))`,
-                    }
-                  : {
-                      aspectRatio: project.aspectRatio,
-                      maxWidth: `calc(var(--video-height-share) * ${project.aspectRatio})`,
-                    }
-              }
-            >
-              <iframe
-                src={embedUrl(project)}
+          {showNativePlayer ? (
+            <>
+              <VideoPlayer
+                src={project.videoUrl as string}
+                poster={project.thumbnailUrl}
+                aspectRatio={project.aspectRatio}
                 title={project.title}
-                allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
-                allowFullScreen
-                className="h-full w-full"
+                onError={() => setNativePlayerFailed(true)}
               />
-              {/* Masque l'icône « ouvrir dans un nouvel onglet » de Google Drive,
-                qui ferait quitter le site. */}
-              {!project.youtubeId && (
-                <div
-                  aria-hidden
-                  className="absolute right-0 top-0 z-[5] h-14 w-14"
-                />
+              {(project.clientName || project.aiGenerated) && (
+                <div className="video-info px-4 pb-4">
+                  {project.clientName && (
+                    <p className="text-sm text-muted">{project.clientName}</p>
+                  )}
+                  {project.aiGenerated && (
+                    <p className="text-xs text-muted">
+                      * Réalisé par une pipeline IA
+                    </p>
+                  )}
+                </div>
               )}
-            </div>
-            {isFullscreen && (
-              <button
-                type="button"
-                data-cursor="link"
-                onClick={exitFullscreen}
-                aria-label="Quitter le plein écran"
-                className="absolute right-3 top-3 z-10 flex items-center gap-2 rounded-md bg-black/60 px-3 py-2 text-xs font-medium text-foreground ring-1 ring-white/20 hover:bg-black/80"
+            </>
+          ) : (
+            <>
+              {/* Même structure dans tous les modes : l'iframe n'est jamais recréée,
+            donc la vidéo ne redémarre pas en entrant/sortant du plein écran. */}
+              <div
+                ref={playerRef}
+                className={`bg-black ${
+                  isFullscreen ? "flex items-center justify-center" : ""
+                } ${
+                  simulatedFullscreen
+                    ? `video-simulated-fullscreen fixed inset-0 z-[60] ${
+                        isLandscapeVideo
+                          ? "video-simulated-fullscreen--rotate"
+                          : ""
+                      }`
+                    : ""
+                }`}
+                style={isFullscreen ? { containerType: "size" } : undefined}
               >
-                <Minimize className="h-4 w-4" />
-                Quitter
-              </button>
-            )}
-          </div>
-
-          <div className="video-info flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
-            {(project.clientName || project.aiGenerated) && (
-              <div className="min-w-0">
-                {project.clientName && (
-                  <p className="text-sm text-muted">{project.clientName}</p>
-                )}
-                {project.aiGenerated && (
-                  <p className="text-xs text-muted">
-                    * Réalisé par une pipeline IA
-                  </p>
+                <div
+                  className={
+                    isFullscreen
+                      ? "relative"
+                      : "video-stage relative mx-auto w-full"
+                  }
+                  style={
+                    isFullscreen
+                      ? {
+                          aspectRatio: project.aspectRatio,
+                          width: `min(100cqw, calc(100cqh * ${project.aspectRatio}))`,
+                        }
+                      : {
+                          aspectRatio: project.aspectRatio,
+                          maxWidth: `calc(var(--video-height-share) * ${project.aspectRatio})`,
+                        }
+                  }
+                >
+                  <iframe
+                    src={embedUrl(project)}
+                    title={project.title}
+                    allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+                    allowFullScreen
+                    className="h-full w-full"
+                  />
+                  {/* Masque l'icône « ouvrir dans un nouvel onglet » de Google Drive,
+                qui ferait quitter le site. */}
+                  {!project.youtubeId && (
+                    <div
+                      aria-hidden
+                      className="absolute right-0 top-0 z-[5] h-14 w-14"
+                    />
+                  )}
+                </div>
+                {isFullscreen && (
+                  <button
+                    type="button"
+                    data-cursor="link"
+                    onClick={exitFullscreen}
+                    aria-label="Quitter le plein écran"
+                    className="absolute right-3 top-3 z-10 flex items-center gap-2 rounded-md bg-black/60 px-3 py-2 text-xs font-medium text-foreground ring-1 ring-white/20 hover:bg-black/80"
+                  >
+                    <Minimize className="h-4 w-4" />
+                    Quitter
+                  </button>
                 )}
               </div>
-            )}
-            <button
-              type="button"
-              data-cursor="link"
-              onClick={enterFullscreen}
-              className="flex w-full shrink-0 items-center justify-center gap-2 rounded-md bg-accent px-4 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:ml-auto sm:w-auto sm:py-2"
-            >
-              <Maximize className="h-4 w-4" />
-              Plein écran
-            </button>
-          </div>
+
+              <div className="video-info flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between">
+                {(project.clientName || project.aiGenerated) && (
+                  <div className="min-w-0">
+                    {project.clientName && (
+                      <p className="text-sm text-muted">{project.clientName}</p>
+                    )}
+                    {project.aiGenerated && (
+                      <p className="text-xs text-muted">
+                        * Réalisé par une pipeline IA
+                      </p>
+                    )}
+                  </div>
+                )}
+                <button
+                  type="button"
+                  data-cursor="link"
+                  onClick={enterFullscreen}
+                  className="flex w-full shrink-0 items-center justify-center gap-2 rounded-md bg-accent px-4 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90 sm:ml-auto sm:w-auto sm:py-2"
+                >
+                  <Maximize className="h-4 w-4" />
+                  Plein écran
+                </button>
+              </div>
+            </>
+          )}
         </div>
       </motion.div>
     </motion.div>
