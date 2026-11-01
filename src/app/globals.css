@@ -25,6 +25,37 @@ body {
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
 
+/* Lecteur vidéo : part de la hauteur d'écran laissée à la vidéo. */
+.video-stage {
+  --video-height-share: 75dvh;
+}
+
+/* Téléphone tenu en paysage : la vidéo prend tout l'écran, sans marges ni titre. */
+@media (orientation: landscape) and (max-height: 500px) {
+  .video-overlay {
+    padding: 0;
+  }
+  .video-stage {
+    --video-height-share: 100dvh;
+  }
+  .video-info {
+    display: none;
+  }
+}
+
+/* Plein écran simulé (iPhone) : une vidéo paysage est tournée de 90° pour
+   remplir un écran tenu en portrait. En paysage, aucune rotation. */
+@media (orientation: portrait) {
+  .video-simulated-fullscreen--rotate {
+    top: 0;
+    left: 0;
+    width: 100dvh;
+    height: 100dvw;
+    transform-origin: top left;
+    transform: rotate(90deg) translateY(-100%);
+  }
+}
+
 @media (pointer: fine) {
   body,
   a,
