@@ -41,13 +41,16 @@ body {
   .video-info {
     display: none;
   }
-  /* Pas de barre au-dessus : la croix flotte à gauche, loin des boutons du lecteur. */
-  .video-close {
+  /* Pas de barre au-dessus : seule la croix flotte, à gauche, loin des boutons du lecteur. */
+  .video-header {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 10;
     padding: 0.5rem;
+  }
+  .video-title {
+    display: none;
   }
 }
 
