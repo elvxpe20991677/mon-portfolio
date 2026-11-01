@@ -41,6 +41,14 @@ body {
   .video-info {
     display: none;
   }
+  /* Pas de barre au-dessus : la croix flotte à gauche, loin des boutons du lecteur. */
+  .video-close {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 0.5rem;
+  }
 }
 
 /* Plein écran simulé (iPhone) : une vidéo paysage est tournée de 90° pour

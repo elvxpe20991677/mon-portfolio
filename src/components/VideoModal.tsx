@@ -147,14 +147,18 @@ export default function VideoModal({ project, onClose }: VideoModalProps) {
         className="relative w-full max-w-4xl overflow-hidden bg-surface sm:rounded-lg"
         onClick={(event) => event.stopPropagation()}
       >
-        <button
-          type="button"
-          onClick={onClose}
-          aria-label="Fermer"
-          className="absolute right-3 top-3 z-10 rounded-md bg-black/60 p-2 text-foreground hover:bg-black/80"
-        >
-          <X className="h-5 w-5" />
-        </button>
+        {/* Hors de la vidéo, pour ne pas se superposer aux boutons du lecteur. */}
+        <div className="video-close flex justify-end px-3 py-2">
+          <button
+            type="button"
+            data-cursor="link"
+            onClick={onClose}
+            aria-label="Fermer"
+            className="rounded-md bg-white/10 p-2 text-foreground hover:bg-white/20"
+          >
+            <X className="h-5 w-5" />
+          </button>
+        </div>
 
         {/* Même structure dans tous les modes : l'iframe n'est jamais recréée,
             donc la vidéo ne redémarre pas en entrant/sortant du plein écran. */}
@@ -192,6 +196,14 @@ export default function VideoModal({ project, onClose }: VideoModalProps) {
               allowFullScreen
               className="h-full w-full"
             />
+            {/* Masque l'icône « ouvrir dans un nouvel onglet » de Google Drive,
+                qui ferait quitter le site. */}
+            {!project.youtubeId && (
+              <div
+                aria-hidden
+                className="absolute right-0 top-0 z-[5] h-14 w-14"
+              />
+            )}
           </div>
           {isFullscreen && (
             <button
