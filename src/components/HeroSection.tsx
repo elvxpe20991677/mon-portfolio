@@ -54,11 +54,20 @@ export default function HeroSection() {
             Voir mon travail
           </a>
           <a
-            href="mailto:3vr.contact@gmail.com"
+            href="#contact"
             data-cursor="link"
             className="rounded-md border border-zinc-800 px-6 py-3 font-medium text-foreground transition-colors hover:border-zinc-600"
           >
             Me contacter
+          </a>
+          <a
+            href="/cv-elvis-perros.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-cursor="link"
+            className="rounded-md border border-zinc-800 px-6 py-3 font-medium text-foreground transition-colors hover:border-zinc-600"
+          >
+            CV
           </a>
         </div>
         <div className="mt-2 inline-flex items-center gap-2 rounded-full border border-green-500/35 px-4 py-1.5 text-xs font-medium tracking-wide text-green-400">

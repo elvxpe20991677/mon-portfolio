@@ -1,6 +1,12 @@
+const EMAIL = "elvis.perros.video@gmail.com";
+const INSTAGRAM_URL = "https://www.instagram.com/3lvx.p/";
+
 export default function Footer() {
   return (
-    <footer className="flex flex-col items-center gap-6 border-t border-zinc-800 px-6 py-24 text-center">
+    <footer
+      id="contact"
+      className="flex flex-col items-center gap-6 border-t border-zinc-800 px-6 py-24 text-center"
+    >
       <p className="text-xs uppercase tracking-widest text-muted">
         Un projet en tête ?
       </p>
@@ -10,11 +16,20 @@ export default function Footer() {
         Ensemble
       </h2>
       <a
-        href="mailto:3vr.contact@gmail.com"
+        href={`mailto:${EMAIL}`}
         data-cursor="link"
-        className="border-b-2 border-zinc-700 pb-1 text-lg text-foreground transition-colors hover:border-accent sm:text-2xl"
+        className="break-all border-b-2 border-zinc-700 pb-1 text-lg text-foreground transition-colors hover:border-accent sm:text-2xl"
       >
-        3vr.contact@gmail.com
+        {EMAIL}
+      </a>
+      <a
+        href={INSTAGRAM_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        data-cursor="link"
+        className="text-sm text-muted transition-colors hover:text-foreground sm:text-base"
+      >
+        Instagram <span className="text-foreground">@3lvx.p</span>
       </a>
       <p className="mt-6 text-xs text-muted">
         © 2026 Elvis Perros. Tous droits réservés.
